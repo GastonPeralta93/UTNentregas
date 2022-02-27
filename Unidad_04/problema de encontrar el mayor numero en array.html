@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+</head>
+
+<body>
+	<script>
+	var array_numeros = [100, 15, 2, 8, 23, 500, 99];
+	var mayor_numero = array_numeros[0]; //en caso de que todos los números del array sean negativos
+	
+	for(i = 0; i < array_numeros.length; i++){
+		if (mayor_numero < array_numeros[i]){
+			mayor_numero = array_numeros[i];
+		}
+	}
+	console.log(mayor_numero);
+	</script>
+</body>
+</html>
+

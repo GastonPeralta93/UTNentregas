@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+	</head>
+
+	<body>
+		<script>
+		var distancia;
+		
+		distancia = prompt('Ingrese la distancia que desea recorrer:','');
+		distancia = parseInt(distancia);
+
+		if (distancia <= 1000){
+		  document.write('se recomienda viajar a pie');
+		}else if(distancia >1000 && distancia < 30000) {
+		    document.write('se recomienda viajar en bicicleta'); 
+		}else if(distancia >30000 && distancia <= 100000) {
+		    document.write('se recomienda viajar en auto'); 
+        }else{
+		    document.write('se recomienda viajar en avión');
+		}
+		</script>
+
+	</body>
+</html>
